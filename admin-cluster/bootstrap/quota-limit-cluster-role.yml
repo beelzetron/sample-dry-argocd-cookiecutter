@@ -5,4 +5,4 @@ metadata:
 rules:
 - apiGroups: [""]
   resources: ["resourcequotas", "limitranges"]
-  verbs: ["create", "delete", "update"]
+  verbs: ["create", "delete", "update", "patch"]
