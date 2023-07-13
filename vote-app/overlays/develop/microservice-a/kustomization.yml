@@ -11,7 +11,7 @@ commonLabels:
   foo: vote-app
 
 images:
-- name: quarkus-app
+- name: image-name
   newName: acme.com/repository/microservice-a
   newTag: "1.1.0"
 
