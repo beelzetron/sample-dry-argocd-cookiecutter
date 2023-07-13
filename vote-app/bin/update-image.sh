@@ -9,4 +9,4 @@ application_version=$4
 image_name='quarkus-app'
 
 cd ${cluster}/${application_ns}/${application_name}/
-kustomize edit set image ${image_name}=acme.com/repository/${application_name}:${application_version}
+kustomize edit set image ${image_name}=quay.io/bluesman/${application_name}:${application_version}

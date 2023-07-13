@@ -11,7 +11,7 @@ commonLabels:
 
 images:
 - name: image-name
-  newName: acme.com/repository/vote-ui
+  newName: quay.io/bluesman/vote-ui
   newTag: "latest"
 
 configMapGenerator:

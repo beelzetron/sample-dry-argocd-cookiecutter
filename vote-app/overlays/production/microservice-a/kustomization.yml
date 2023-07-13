@@ -11,7 +11,7 @@ commonLabels:
 
 images:
 - name: image-name
-  newName: acme.com/repository/microservice-a
+  newName: quay.io/bluesman/microservice-a
   newTag: "1.0.0"
 
 configMapGenerator:

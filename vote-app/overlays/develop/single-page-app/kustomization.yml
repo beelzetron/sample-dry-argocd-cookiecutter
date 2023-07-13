@@ -11,7 +11,7 @@ commonLabels:
 
 images:
 - name: image-name
-  newName: acme.com/repository/single-page-app
+  newName: quay.io/bluesman/single-page-app
   newTag: "1.0.0"
 
 configMapGenerator:
