@@ -14,7 +14,7 @@ spec:
     metadata:
       name: '{{ path[2] }}-infra'
     spec:
-      project: '{{ path[3] }}'
+      project: 'develop'
       source:
         repoURL: https://github.com/saiello/sample-dry-argocd-cookiecutter.git
         targetRevision: HEAD
